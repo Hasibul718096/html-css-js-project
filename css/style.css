@@ -1,0 +1,44 @@
+ .step1 {
+     padding: 20px 0;
+     color: #fff;
+ }
+
+ select {
+     background: transparent !important;
+     border: 1px solid #fff;
+     margin-top: 20px;
+     color: #fff;
+ }
+
+a.nav-link {
+    color: #fff !important;
+}
+ .blue {
+     background: #010624;
+ }
+span {
+    
+    padding-right: 10px;
+    font-size: 33px;
+    font-weight: 800;
+}
+.blue img{
+    height: 100px;
+}
+.white{
+    background: #dbd6d6;
+}
+
+.outer{
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.navbar-text p,
+.navbar-text a
+{
+    color: #fff !important;
+    font-size: 13px;
+}

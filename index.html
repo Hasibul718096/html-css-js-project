@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light blue">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        City
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Map</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <p>Mamun islam 
+                <br><a href="#">Logout</a></p>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 blue">
+                <select class="form-control form-control-lg">
+                    <option>Select City</option>
+                </select>
+                <div class="step1">
+                    <p>Faecal Sludge Management (FSM)</p>
+                    <hr>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Contamination scenario</label>
+                    </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Emptying">
+                        <label class="custom-control-label" for="Emptying">Emptying proces</label>
+                    </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Vehicle">
+                        <label class="custom-control-label" for="Vehicle">Vehicle Accessibility</label>
+                    </div>
+                </div>
+                <div class="step1">
+                    <p>Solid Waste Management (SWM)</p>
+                    <hr>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Collection">
+                        <label class="custom-control-label" for="Collection">Waste Collection</label>
+                    </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Disposal">
+                        <label class="custom-control-label" for="Disposal">Waste Disposal</label>
+                    </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Malpractice">
+                        <label class="custom-control-label" for="Malpractice">Malpractice</label>
+                    </div>
+                </div>
+                <div class="step1">
+                    <p>Demography and others</p>
+                    <hr>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="Population">
+                        <label class="custom-control-label" for="Population">Population density</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 white">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card mt-4">
+                            <div class="card-header text-center">
+                                Variables
+                            </div>
+                            <div class="card-body">
+
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Containment_type">
+                                    <label class="custom-control-label" for="Containment_type">Containment type </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Containment_outlet">
+                                    <label class="custom-control-label" for="Containment_outlet">Containment outlet </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Distance">
+                                    <label class="custom-control-label" for="Distance"> Distance of water source and containment</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header text-center">
+                                Values
+                            </div>
+                            <div class="card-body">
+                                <p><span>-</span> Containment type</p>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Septic">
+                                    <label class="custom-control-label" for="Septic">Septic tank </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Double">
+                                    <label class="custom-control-label" for="Double">Double pit </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Single">
+                                    <label class="custom-control-label" for="Single">Single pit </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Dug">
+                                    <label class="custom-control-label" for="Dug">Dug hole</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="containment">
+                                    <label class="custom-control-label" for="containment">No containment</label>
+                                </div>
+
+                                <!--                       Containment outlet start-->
+                                <p><span>-</span> Containment outlet</p>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Soak">
+                                    <label class="custom-control-label" for="Soak">Soak pit </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Covered">
+                                    <label class="custom-control-label" for="Covered">Covered drain </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Uncovered">
+                                    <label class="custom-control-label" for="Uncovered">Uncovered drain </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Open">
+                                    <label class="custom-control-label" for="Open">Open ground</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="Nearby">
+                                    <label class="custom-control-label" for="Nearby">Nearby waterbodies</label>
+                                </div>
+
+                                <!--                       Distance of water source and containment start-->
+                                <p><span>-</span> Distance of water source and containment</p>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="0-3">
+                                    <label class="custom-control-label" for="0-3"> 0-3 meters </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="3-10">
+                                    <label class="custom-control-label" for="3-10">3-10 meters </label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="10+">
+                                    <label class="custom-control-label" for="10+"> 10+ </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14604.944003271834!2d90.42194549999999!3d23.774608999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592987645614!5m2!1sen!2sbd" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+
+                        <div class="card my-4">
+                            <div class="card-body text-center">
+                                <p>Containment type </p>
+
+                                <div class="circles">
+                                    <div class="first circle">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card my-4">
+                            <div class="card-body text-center">
+                                <p>Septic tank outlet </p>
+
+                                <div class="circles">
+                                    <div class="second circle">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card my-4">
+                            <div class="card-body text-center">
+                                <p>Tube well - containment distance </p>
+
+                                <div class="circles">
+                                    <div class="third circle">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/examples.js"></script>
+</body>
+
+</html>
